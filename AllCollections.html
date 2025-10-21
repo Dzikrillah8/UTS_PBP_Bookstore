@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Collections</title>
+
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- sweet alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">bookstorez</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav mx-auto">
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="bookstore-home.html"
+              >Home</a
+            >
+            <a
+              class="nav-link disabled"
+              href="#about"
+              aria-disabled="true"
+              style="color: rgb(172, 172, 172)"
+              >About Us</a
+            >
+            <a
+              class="nav-link disabled"
+              href="#catalogue"
+              aria-disabled="true"
+              style="color: rgb(172, 172, 172)"
+              >Catalog</a
+            >
+            <a
+              class="nav-link disabled"
+              href="#contact"
+              aria-disabled="true"
+              style="color: rgb(172, 172, 172)"
+              >Contact</a
+            >
+          </div>
+        </div>
+
+        <div class="navbar-extra">
+          <a href="#" id="search"><i data-feather="search"></i></a>
+          <a href="cart.html" id="shopping-cart"
+            ><i data-feather="shopping-cart"></i
+          ></a>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- all books start -->
+    <section class="collection">
+      <h2>All Book Collections</h2>
+
+      <!-- row 1 -->
+      <div class="collection-row-one">
+        <div class="card">
+          <img src="img/book1.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5>Children Book</h5>
+            <p class="card-text">Rp90.000,00</p>
+            <div
+              class="d-flex justify-content-center align-items-center gap-2 mt-2"
+            >
+              <!-- favorite -->
+              <button class="btn btn-outline-dark btn-sm fav">
+                <i data-feather="heart"></i>
+              </button>
+
+              <!-- see detail button -->
+              <a
+                href="BookDetail.html"
+                class="btn btn-outline-dark btn-sm detail"
+              >
+                See Detail
+              </a>
+
+              <!-- cart -->
+              <button class="btn btn-outline-dark btn-sm carts">
+                <i data-feather="shopping-cart"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="img/book2.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5>Prospek Teknologi</h5>
+            <p class="card-text">Rp118.000,00</p>
+            <div
+              class="d-flex justify-content-center align-items-center gap-2 mt-2"
+            >
+              <!-- favorite -->
+              <button class="btn btn-outline-dark btn-sm fav">
+                <i data-feather="heart"></i>
+              </button>
+
+              <!-- see detail button -->
+              <a
+                href="BookDetail.html"
+                class="btn btn-outline-dark btn-sm detail"
+              >
+                See Detail
+              </a>
+
+              <!-- cart -->
+              <button class="btn btn-outline-dark btn-sm carts">
+                <i data-feather="shopping-cart"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="img/book3.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5>Fiction Novel</h5>
+            <p class="card-text">Rp99.000,00</p>
+            <div
+              class="d-flex justify-content-center align-items-center gap-2 mt-2"
+            >
+              <!-- favorite -->
+              <button class="btn btn-outline-dark btn-sm fav">
+                <i data-feather="heart"></i>
+              </button>
+
+              <!-- see detail button -->
+              <a
+                href="BookDetail.html"
+                class="btn btn-outline-dark btn-sm detail"
+              >
+                See Detail
+              </a>
+
+              <!-- cart -->
+              <button class="btn btn-outline-dark btn-sm carts">
+                <i data-feather="shopping-cart"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- row 2 -->
+      <div class="collection-row-two">
+        <div class="card">
+          <img src="img/book4.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5>Surat Dari Senja</h5>
+            <p class="card-text">Rp86.000,00</p>
+            <div
+              class="d-flex justify-content-center align-items-center gap-2 mt-2"
+            >
+              <!-- favorite -->
+              <button class="btn btn-outline-dark btn-sm fav">
+                <i data-feather="heart"></i>
+              </button>
+
+              <!-- see detail button -->
+              <a
+                href="BookDetail-4.html"
+                class="btn btn-outline-dark btn-sm detail"
+              >
+                See Detail
+              </a>
+
+              <!-- cart -->
+              <button class="btn btn-outline-dark btn-sm carts">
+                <i data-feather="shopping-cart"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="img/book5.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5>Ushul Fiqih</h5>
+            <p class="card-text">Rp75.600,00</p>
+            <div
+              class="d-flex justify-content-center align-items-center gap-2 mt-2"
+            >
+              <!-- favorite -->
+              <button class="btn btn-outline-dark btn-sm fav">
+                <i data-feather="heart"></i>
+              </button>
+
+              <!-- see detail button -->
+              <a
+                href="BookDetail.html"
+                class="btn btn-outline-dark btn-sm detail"
+              >
+                See Detail
+              </a>
+              <!-- cart -->
+              <button class="btn btn-outline-dark btn-sm carts">
+                <i data-feather="shopping-cart"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="img/book6.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5>English Vocabulary</h5>
+            <p class="card-text">Rp126.000,00</p>
+            <div
+              class="d-flex justify-content-center align-items-center gap-2 mt-2"
+            >
+              <!-- favorite -->
+              <button class="btn btn-outline-dark btn-sm fav">
+                <i data-feather="heart"></i>
+              </button>
+
+              <!-- see detail button -->
+              <a
+                href="BookDetail.html"
+                class="btn btn-outline-dark btn-sm detail"
+              >
+                See Detail
+              </a>
+              <!-- cart -->
+              <button class="btn btn-outline-dark btn-sm carts">
+                <i data-feather="shopping-cart"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        const favButtons = document.querySelectorAll(".fav");
+        favButtons.forEach((button) => {
+          button.addEventListener("click", () => {
+            Swal.fire({
+              title: "Added to favorite!",
+              text: "Successfully added to favorite.",
+              icon: "success",
+              confirmButtonColor: "#272727",
+            });
+          });
+        });
+
+        const cartButtons = document.querySelectorAll(".carts");
+        cartButtons.forEach((button) => {
+          button.addEventListener("click", () => {
+            Swal.fire({
+              title: "Added to cart!",
+              text: "Successfully added to cart.",
+              icon: "success",
+              confirmButtonColor: "#272727",
+            });
+          });
+        });
+      </script>
+    </section>
+    <!-- all books end -->
+
+    <!-- footer start -->
+    <footer class="footer">
+      <div class="socials">
+        <a href=""><i data-feather="instagram"></i></a>
+        <a href=""><i data-feather="twitter"></i></a>
+        <a href=""><i data-feather="facebook"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#catalogue">Catalog</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="credit">
+        <p style="color: #fff">
+          Created by <a href="">dzikrillahraz</a>. | &copy; 2025.
+        </p>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- feather-icons -->
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
